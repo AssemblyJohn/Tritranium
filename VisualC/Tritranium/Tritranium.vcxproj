@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Application\Application.cpp" />
+    <ClCompile Include="..\..\src\Application\ApplicationComponent.cpp" />
+    <ClCompile Include="..\..\src\Application\Input.cpp" />
+    <ClCompile Include="..\..\src\Core\Commons\Compress.cpp" />
+    <ClCompile Include="..\..\src\Core\Commons\Data.cpp" />
+    <ClCompile Include="..\..\src\Core\Commons\File.cpp" />
+    <ClCompile Include="..\..\src\Core\Commons\String.cpp" />
+    <ClCompile Include="..\..\src\Core\Math\AABB.cpp" />
+    <ClCompile Include="..\..\src\Core\Math\Color.cpp" />
+    <ClCompile Include="..\..\src\Core\Math\Math.cpp" />
+    <ClCompile Include="..\..\src\Core\Math\Matrix.cpp" />
+    <ClCompile Include="..\..\src\Core\Memory\EASTLTestAllocator.cpp" />
+    <ClCompile Include="..\..\src\Core\Threading\Threading.cpp" />
+    <ClCompile Include="..\..\src\Core\Utils\Profiler.cpp" />
+    <ClCompile Include="..\..\src\Core\Utils\Timing.cpp" />
+    <ClCompile Include="..\..\src\Engine\Asset\AssetManager.cpp" />
+    <ClCompile Include="..\..\src\Engine\Asset\Importer.cpp" />
+    <ClCompile Include="..\..\src\Engine\Asset\Material.cpp" />
+    <ClCompile Include="..\..\src\Engine\Asset\Mesh.cpp" />
+    <ClCompile Include="..\..\src\Engine\Asset\ShaderProgram.cpp" />
+    <ClCompile Include="..\..\src\Engine\Asset\Texture.cpp" />
+    <ClCompile Include="..\..\src\Engine\Camera.cpp" />
+    <ClCompile Include="..\..\src\Engine\Engine.cpp" />
+    <ClCompile Include="..\..\src\Engine\Object\GameObject.cpp" />
+    <ClCompile Include="..\..\src\Engine\Object\Object.cpp" />
+    <ClCompile Include="..\..\src\Engine\Physics\Physics.cpp" />
+    <ClCompile Include="..\..\src\Engine\Physics\PhysicsEngine.cpp" />
+    <ClCompile Include="..\..\src\Engine\Property\Property.cpp" />
+    <ClCompile Include="..\..\src\Engine\Property\Script.cpp" />
+    <ClCompile Include="..\..\src\Engine\Scene.cpp" />
+    <ClCompile Include="..\..\src\Engine\World.cpp" />
+    <ClCompile Include="..\..\src\Main.cpp" />
+    <ClCompile Include="..\..\src\Platform\Common\CommonMemory.cpp" />
+    <ClCompile Include="..\..\src\Platform\Win32\WindowsDebug.cpp" />
+    <ClCompile Include="..\..\src\Platform\Win32\WindowsLog.cpp" />
+    <ClCompile Include="..\..\src\Platform\Win32\WindowsMemory.cpp" />
+    <ClCompile Include="..\..\src\Rendering\Driver\OpenGL\gl3w.c" />
+    <ClCompile Include="..\..\src\Rendering\Driver\OpenGL\glinclude.cpp" />
+    <ClCompile Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidCommands.cpp" />
+    <ClCompile Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidDependencyParser.cpp" />
+    <ClCompile Include="..\..\src\Sound\Sound.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Application\Application.h" />
+    <ClInclude Include="..\..\src\Application\ApplicationComponent.h" />
+    <ClInclude Include="..\..\src\Application\Input.h" />
+    <ClInclude Include="..\..\src\Core\Commons\Compress.h" />
+    <ClInclude Include="..\..\src\Core\Commons\Containers.h" />
+    <ClInclude Include="..\..\src\Core\Commons\CString.h" />
+    <ClInclude Include="..\..\src\Core\Commons\Data.h" />
+    <ClInclude Include="..\..\src\Core\Commons\Debug.h" />
+    <ClInclude Include="..\..\src\Core\Commons\File.h" />
+    <ClInclude Include="..\..\src\Core\Commons\String.h" />
+    <ClInclude Include="..\..\src\Core\Core.h" />
+    <ClInclude Include="..\..\src\Core\CoreLite.h" />
+    <ClInclude Include="..\..\src\Core\Debug\Log.h" />
+    <ClInclude Include="..\..\src\Core\Math\AABB.h" />
+    <ClInclude Include="..\..\src\Core\Math\Color.h" />
+    <ClInclude Include="..\..\src\Core\Math\Math.h" />
+    <ClInclude Include="..\..\src\Core\Math\Matrix.h" />
+    <ClInclude Include="..\..\src\Core\Math\Random.h" />
+    <ClInclude Include="..\..\src\Core\Math\Scalar.h" />
+    <ClInclude Include="..\..\src\Core\Math\Vector.h" />
+    <ClInclude Include="..\..\src\Core\Memory\EASTLTestAllocator.h" />
+    <ClInclude Include="..\..\src\Core\Memory\Memory.h" />
+    <ClInclude Include="..\..\src\Core\Template\Link.h" />
+    <ClInclude Include="..\..\src\Core\Template\List.h" />
+    <ClInclude Include="..\..\src\Core\Template\Map.h" />
+    <ClInclude Include="..\..\src\Core\Template\ReferenceCounting.h" />
+    <ClInclude Include="..\..\src\Core\Threading\Threading.h" />
+    <ClInclude Include="..\..\src\Core\Utils\Profiler.h" />
+    <ClInclude Include="..\..\src\Core\Utils\Timing.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\Asset.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\AssetBlueprint.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\AssetManager.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\Importer.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\Material.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\MaterialBlueprint.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\Mesh.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\MeshBlueprint.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\ShaderBlueprint.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\ShaderProgram.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\Texture.h" />
+    <ClInclude Include="..\..\src\Engine\Asset\TextureBlueprint.h" />
+    <ClInclude Include="..\..\src\Engine\Camera.h" />
+    <ClInclude Include="..\..\src\Engine\Engine.h" />
+    <ClInclude Include="..\..\src\Engine\GameThread.h" />
+    <ClInclude Include="..\..\src\Engine\Object\GameObject.h" />
+    <ClInclude Include="..\..\src\Engine\Object\Object.h" />
+    <ClInclude Include="..\..\src\Engine\Physics\Physics.h" />
+    <ClInclude Include="..\..\src\Engine\Physics\PhysicsEngine.h" />
+    <ClInclude Include="..\..\src\Engine\Property\Property.h" />
+    <ClInclude Include="..\..\src\Engine\Property\Renderable.h" />
+    <ClInclude Include="..\..\src\Engine\Property\Script.h" />
+    <ClInclude Include="..\..\src\Engine\Property\Transform.h" />
+    <ClInclude Include="..\..\src\Engine\Scene.h" />
+    <ClInclude Include="..\..\src\Engine\World.h" />
+    <ClInclude Include="..\..\src\Platform\Common\CommonMemory.h" />
+    <ClInclude Include="..\..\src\Platform\Common\CommonPlatform.h" />
+    <ClInclude Include="..\..\src\Platform\Platform.h" />
+    <ClInclude Include="..\..\src\Platform\PlatformAssertion.h" />
+    <ClInclude Include="..\..\src\Platform\PlatformDebug.h" />
+    <ClInclude Include="..\..\src\Platform\PlatformLog.h" />
+    <ClInclude Include="..\..\src\Platform\PlatformMemory.h" />
+    <ClInclude Include="..\..\src\Platform\PlatformVideo.h" />
+    <ClInclude Include="..\..\src\Platform\Win32\WindowsDebug.h" />
+    <ClInclude Include="..\..\src\Platform\Win32\WindowsLog.h" />
+    <ClInclude Include="..\..\src\Platform\Win32\WindowsMemory.h" />
+    <ClInclude Include="..\..\src\Platform\Win32\WindowsPlatform.h" />
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\gl3w.h" />
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\glinclude.h" />
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\GluHelpers.h" />
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidCommands.h" />
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidDependencyParser.h" />
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVideo.h" />
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidResources.h" />
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidState.h" />
+    <ClInclude Include="..\..\src\Rendering\VidCommands.h" />
+    <ClInclude Include="..\..\src\Rendering\VidDefines.h" />
+    <ClInclude Include="..\..\src\Rendering\VidResources.h" />
+    <ClInclude Include="..\..\src\Sound\Sound.h" />
+    <ClInclude Include="..\..\src\Tritranium.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\media\Shaders\occlusion.glsl.fs" />
+    <None Include="..\..\media\Shaders\occlusion.glsl.vs" />
+    <None Include="..\..\media\Shaders\pbr.glsl.fs" />
+    <None Include="..\..\media\Shaders\pbr.glsl.vs" />
+    <None Include="..\..\media\Shaders\raymarch.fs" />
+    <None Include="..\..\media\Shaders\raymarch.vs" />
+    <None Include="..\..\media\Shaders\test.fs" />
+    <None Include="..\..\media\Shaders\test.vs" />
+    <None Include="..\..\media\Shaders\textured1.glsl.fs" />
+    <None Include="..\..\media\Shaders\textured1.glsl.vs" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F3D852C5-C171-4628-8208-C476839AE958}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Tritranium</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\bin\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\unused\$(PlatformName)\$(Configuration)\intermediate\</IntDir>
+    <LibraryPath>..\..\thirdparty\SDL2;..\..\thirdparty\zlib;..\..\thirdparty\png;..\..\thirdparty\BulletPhysics;..\..\thirdparty\EASTL;%(AdditionalLibraryDirectories);$(LibraryPath)</LibraryPath>
+    <SourcePath>..\..\src</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\bin\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\unused\$(PlatformName)\$(Configuration)\intermediate\</IntDir>
+    <LibraryPath>..\..\thirdparty\SDL2;..\..\thirdparty\zlib;..\..\thirdparty\png;..\..\thirdparty\BulletPhysics;..\..\thirdparty\EASTL;%(AdditionalLibraryDirectories);$(LibraryPath)</LibraryPath>
+    <SourcePath>..\..\src</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\unused\$(PlatformName)\$(Configuration)\intermediate\</IntDir>
+    <LibraryPath>..\..\thirdparty\SDL2;..\..\thirdparty\zlib;..\..\thirdparty\png;..\..\thirdparty\BulletPhysics;..\..\thirdparty\EASTL;%(AdditionalLibraryDirectories);$(LibraryPath)</LibraryPath>
+    <SourcePath>..\..\src</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\unused\$(PlatformName)\$(Configuration)\intermediate\</IntDir>
+    <LibraryPath>..\..\thirdparty\SDL2;..\..\thirdparty\zlib;..\..\thirdparty\png;..\..\thirdparty\BulletPhysics;..\..\thirdparty\EASTL;%(AdditionalLibraryDirectories);$(LibraryPath)</LibraryPath>
+    <SourcePath>..\..\src</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>PLATFORM_WINDOWS;TRITRANIUM_OPENGL;TRITRANIUM_DEBUG;TRITRANIUM_LOG;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\thirdparty\zlib\include;..\..\thirdparty\BulletPhysics\include;..\..\thirdparty\zlib\include;..\..\thirdparty\png\include;..\..\thirdparty\EASTL\include;..\..\thirdparty\SDL2\include;..\..\thirdparty\OpenGL;..\..\src;..\..\thirdparty\BulletPhysics\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>EASTL.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;BulletCollision_vs2010.lib;BulletDynamics_vs2010.lib;LinearMath_vs2010.lib;libpng-2015.lib;libzlib.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>PLATFORM_WINDOWS;TRITRANIUM_OPENGL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\thirdparty\zlib\include;..\..\thirdparty\zlib\include;..\..\thirdparty\png\include;..\..\thirdparty\EASTL\include;..\..\thirdparty\SDL2\include;..\..\thirdparty\OpenGL;..\..\src;..\..\thirdparty\BulletPhysics\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>EASTL.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;BulletCollision_vs2010.lib;BulletDynamics_vs2010.lib;LinearMath_vs2010.lib;libpng-2015.lib;libzlib.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>PLATFORM_WINDOWS;TRITRANIUM_OPENGL;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\thirdparty\zlib\include;..\..\thirdparty\BulletPhysics\include;..\..\thirdparty\png\include;..\..\thirdparty\EASTL\include;..\..\thirdparty\SDL2\include;..\..\thirdparty\OpenGL;..\..\src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>EASTL.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;BulletCollision_vs2010.lib;BulletDynamics_vs2010.lib;LinearMath_vs2010.lib;libpng-2015.lib;libzlib.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>PLATFORM_WINDOWS;TRITRANIUM_OPENGL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\thirdparty\zlib\include;..\..\thirdparty\zlib\include;..\..\thirdparty\png\include;..\..\thirdparty\EASTL\include;..\..\thirdparty\SDL2\include;..\..\thirdparty\OpenGL;..\..\src;..\..\thirdparty\BulletPhysics\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>EASTL.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;BulletCollision_vs2010.lib;BulletDynamics_vs2010.lib;LinearMath_vs2010.lib;libpng-2015.lib;libzlib.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

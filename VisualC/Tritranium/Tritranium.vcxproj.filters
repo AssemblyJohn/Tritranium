@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{03b43df9-4a66-4fd3-82bc-8580a6ae5bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Commons">
+      <UniqueIdentifier>{0d785b24-8326-4c1d-bde3-e181bca0f139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Memory">
+      <UniqueIdentifier>{9de91795-0cfc-4877-93e4-d1f388243b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{0c129ba3-9e41-4a8e-8e58-e0fa0d08328d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{74a96a06-d5ef-43ec-9fb4-b633fe6ce7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{c1eba738-6290-4d56-9d5d-91cb9b120de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Common">
+      <UniqueIdentifier>{79c0a04b-a196-4de4-993c-4ade2e82efda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{27a878e0-8a78-4461-b25f-ecbae8b4bf7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Linux">
+      <UniqueIdentifier>{fcbd47c4-0018-4b02-ada7-302a13bd9620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{89a38edf-bfa2-4fed-bbee-386daf922fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{927ea61c-3a83-493d-96a1-ccea7c39d29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Driver">
+      <UniqueIdentifier>{3558c178-d922-46a2-859a-5846dfd7026f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Driver\DirectX">
+      <UniqueIdentifier>{f3d3252d-833a-4aa5-8583-05ecdaa1d153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Driver\OpenGL">
+      <UniqueIdentifier>{8b5867ad-5d68-4860-8326-8873e479e184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Debug">
+      <UniqueIdentifier>{d6651a5f-e80c-4987-ad34-ee7c9f36b5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Template">
+      <UniqueIdentifier>{b1477b02-6053-4504-a946-e9dc75b76976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Threading">
+      <UniqueIdentifier>{3c5c412d-dd6d-4bb9-b3a2-4529b572c140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utils">
+      <UniqueIdentifier>{b803c910-1b07-4a5e-9c53-16853b4926e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Application">
+      <UniqueIdentifier>{24a7a52c-aeb9-4c91-a4c6-ccf778b571c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{2bec0d2c-a9d9-4a02-bdcb-57b00e4e0b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Asset">
+      <UniqueIdentifier>{9a42afa4-4d69-4a76-8272-03dc635f0b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object">
+      <UniqueIdentifier>{d8a70144-dcab-472f-8b02-0fb8a11ef609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics">
+      <UniqueIdentifier>{7616ed71-b889-4d03-b696-586adffc6f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Property">
+      <UniqueIdentifier>{e94ff5f8-5d2a-4c3c-978c-eeb3f242857b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{fd1933c0-adb2-4961-b7f8-40e3bf73964c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Core\Memory\EASTLTestAllocator.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Platform\Win32\WindowsDebug.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Platform\Win32\WindowsLog.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Platform\Win32\WindowsMemory.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Platform\Common\CommonMemory.cpp">
+      <Filter>Platform\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Commons\Compress.cpp">
+      <Filter>Core\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Commons\Data.cpp">
+      <Filter>Core\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Commons\String.cpp">
+      <Filter>Core\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Threading\Threading.cpp">
+      <Filter>Core\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Utils\Profiler.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Utils\Timing.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Math\AABB.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Math\Color.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Math\Math.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Math\Matrix.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Application\Application.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Application\ApplicationComponent.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Application\Input.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Rendering\Driver\OpenGL\glinclude.cpp">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Commons\File.cpp">
+      <Filter>Core\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidCommands.cpp">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidDependencyParser.cpp">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Rendering\Driver\OpenGL\gl3w.c">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Sound\Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Object\Object.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Asset\Material.cpp">
+      <Filter>Engine\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Asset\Mesh.cpp">
+      <Filter>Engine\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Asset\ShaderProgram.cpp">
+      <Filter>Engine\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Asset\Texture.cpp">
+      <Filter>Engine\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Scene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\World.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Physics\Physics.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Physics\PhysicsEngine.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Property\Property.cpp">
+      <Filter>Engine\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Property\Script.cpp">
+      <Filter>Engine\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Asset\Importer.cpp">
+      <Filter>Engine\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Object\GameObject.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Asset\AssetManager.cpp">
+      <Filter>Engine\Asset</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Core\Memory\EASTLTestAllocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\Platform.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\PlatformAssertion.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\PlatformDebug.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\PlatformLog.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\PlatformMemory.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\PlatformVideo.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\Win32\WindowsDebug.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\Win32\WindowsLog.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\Win32\WindowsMemory.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\Win32\WindowsPlatform.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\Common\CommonMemory.h">
+      <Filter>Platform\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Platform\Common\CommonPlatform.h">
+      <Filter>Platform\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Memory\Memory.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\VidCommands.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\VidDefines.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\VidResources.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Debug\Log.h">
+      <Filter>Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Commons\Compress.h">
+      <Filter>Core\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Commons\Containers.h">
+      <Filter>Core\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Commons\CString.h">
+      <Filter>Core\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Commons\Data.h">
+      <Filter>Core\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Commons\Debug.h">
+      <Filter>Core\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Commons\File.h">
+      <Filter>Core\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Commons\String.h">
+      <Filter>Core\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\CoreLite.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Template\Link.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Template\List.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Template\Map.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Template\ReferenceCounting.h">
+      <Filter>Core\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Threading\Threading.h">
+      <Filter>Core\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Utils\Profiler.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Utils\Timing.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Math\AABB.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Math\Color.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Math\Math.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Math\Matrix.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Math\Random.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Math\Scalar.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Math\Vector.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Tritranium.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Application\Application.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Application\ApplicationComponent.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Application\Input.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\glinclude.h">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\GluHelpers.h">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidCommands.h">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidDependencyParser.h">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVideo.h">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidResources.h">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\OpenGLVidState.h">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Rendering\Driver\OpenGL\gl3w.h">
+      <Filter>Rendering\Driver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Sound\Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Object\Object.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\Asset.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\AssetBlueprint.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\AssetManager.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\Material.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\MaterialBlueprint.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\Mesh.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\MeshBlueprint.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\ShaderBlueprint.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\ShaderProgram.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\Texture.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\TextureBlueprint.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\GameThread.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Scene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\World.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Physics\Physics.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Physics\PhysicsEngine.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Property\Property.h">
+      <Filter>Engine\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Property\Renderable.h">
+      <Filter>Engine\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Property\Script.h">
+      <Filter>Engine\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Property\Transform.h">
+      <Filter>Engine\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Asset\Importer.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Object\GameObject.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\media\Shaders\occlusion.glsl.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\occlusion.glsl.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\raymarch.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\raymarch.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\test.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\test.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\textured1.glsl.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\textured1.glsl.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\pbr.glsl.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\pbr.glsl.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -8,6 +8,9 @@ It includes:
 - Resource managing
 - Physics handles by BulletPhysics
 - Runtime C++ reflection
+- Rendering backend abstraction
+- Math library
+- OpenGL rendering backend
 
 Built around:
 
